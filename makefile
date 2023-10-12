@@ -11,6 +11,7 @@ BINNAME=crsh
 compile: 
 	$(CC) $(CFLAGS) $(CFLAGSLIB) -o $(BLD_DIR)/config.o $(SRCDIR)/config.c
 	$(CC) $(CFLAGS) $(CFLAGSLIB) -o $(BLD_DIR)/input.o $(SRCDIR)/input.c
+	$(CC) $(CFLAGS) $(CFLAGSLIB) -o $(BLD_DIR)/command.o $(SRCDIR)/command.c
 	$(CC) $(CFLAGS) $(CFLAGSLIB) -o $(BLD_DIR)/main.o $(SRCDIR)/main.c
 
 link:

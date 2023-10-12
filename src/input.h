@@ -32,12 +32,10 @@
     /* Reads string from stdin and writes it to the buffer */
     void stdin_get_command(char *buffer, size_t buffer_length);
 
-    /*
-     * Expand command budder. 
+    /* Expand command budder. 
      * Currently it doubles the buffer size
      *
      * Return 0 if success expanding
-     * Return ENOMEM if reallocation failed
-     */
+     * Return ENOMEM if reallocation failed*/
     int expand_command_buffer(char *buffer, size_t buffer_length);
 #endif

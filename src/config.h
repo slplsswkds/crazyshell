@@ -10,13 +10,9 @@
     };
     typedef struct config config;
 
-    /* 
-     * Reads the config file .crshrc and returns the configuration in Config 
-     */
+    /* Reads the config file .crshrc and returns the configuration in Config */
     config read_config(void);
 
-    /* 
-     * Returns the default CrazyShell configuration 
-     */
+    /* Returns the default CrazyShell configuration */
     config default_config(void);
-#endif /* CONFIG_H */
+#endif

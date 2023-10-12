@@ -1,4 +1,4 @@
 # crazyshell
 Unix shell with minimal functionality
 
-not ready for use
+The minimum working version that can only run one command with arguments
